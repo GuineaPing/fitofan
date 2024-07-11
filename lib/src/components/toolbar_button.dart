@@ -1,7 +1,19 @@
 import 'package:flutter/material.dart';
 
-class Buttons {
-  Widget toolbarButton(String title, String imageName, VoidCallback onPressed) {
+class ToolbarButton extends StatelessWidget {
+  final String title;
+  final String imageName;
+  final VoidCallback onPressed;
+
+  const ToolbarButton({
+    super.key,
+    required this.title,
+    required this.imageName,
+    required this.onPressed,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     String imagePath = 'assets/images/icons/$imageName.png';
     return Center(
       child: TextButton.icon(
