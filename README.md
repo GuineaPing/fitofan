@@ -2,17 +2,17 @@
 
 ### - [x] Task 1: Develop page according to designs & prepare questions about logic  
 
-provided design not exactly fit iPad formfactor it seems more for browser, thats because in app for keeping cells proprtion central column height seems shorer;
+Provided design not exactly fit iPad form factor, it seems more for browser, in app central column height shorer for keeping cells proprtion.
 
-* the main functionality of this view is browsing of wrestling matches results?
-* active controls on the view are Previous, Next buttons, Penalty & Menu buttons on competitors cells, 'This match is Active', 'Save results', 'Show results on screen' on central pane and 'Show on TV' in the bottom of left pane. Did I missed some?
+* The function of this view is only browsing of wrestling matches results?
+* Active controls on the view are Previous, Next buttons, Penalty & Menu buttons on competitors cells, 'This match is Active', 'Save results', 'Show results on screen' on central pane and 'Show on TV' in the bottom of left pane. Did I missed some?
 * Previous, Next buttons are for browsing matches in chronological order?
-* 'This match is Active' is switches match status active/complete? 
+* Ss 'This match is Active' switches match status active/complete? 
 * What additional action it fires?
-* Maybe 'Save results' shold be better make it enabled if the match were completed?
+* Maybe 'Save results' button should better make enabled olnly when the match completed?
 * What is the diifference between buttons 'Show result on screen' and 'Show on TV'?
-* What is shows previous and next list? It looks like history.
-* The lists headers 'Previous' & 'Next', doesn't them copy buttons titles above and rather wasting screen space?
+* What the items is shows previous and next lists? It looks like matches history.
+* Consider the lists headers 'Previous' & 'Next', doesn't them copy buttons titles above and wasting screen space?
 
 ### [x] Task 2: Estimate and Plan for a New Pages (Event tab on homepage & Sport Score)
 #### [x] Review Additional Design:
@@ -20,7 +20,7 @@ provided design not exactly fit iPad formfactor it seems more for browser, thats
     
 #### [x] Provide Estimation:
 #### - [x] Estimate the time required to implement the new page based on the provided design.
-* Estimated time 12h, unsure yet, need more assignment details.
+* 10h unsure yet, need more assignment details.
     
 #### - [x] Outline the major steps you would take to implement this design.
 ###### Ways of implementation & techniques:
@@ -30,12 +30,12 @@ provided design not exactly fit iPad formfactor it seems more for browser, thats
 * For app navigation better to use tabbar widget 
     
 #### Prepare Questions:
-#### - [ ] List any questions or clarifications you need before starting the implementation. This could include questions about design details, data requirements, or existing project constraints.
+#### - [x] List any questions or clarifications you need before starting the implementation. This could include questions about design details, data requirements, or existing project constraints.
 * What is the function of application?
 * What API calls to use?
 * What is the intended sequence of user actions?
 * What should happen on pressing button 'Follow'?
-* The same question about registration, mail, top right favorites and arrow buttons.
+* The same question about 'registration', 'mail', top right 'favorites' and 'arrow' buttons.
 * How should to handle user session and settings?
 * What data associated to controls and models?
 * How the Sport Score calculates?
