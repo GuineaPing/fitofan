@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../buttons/bottom_pane/bottom_pane_button.dart';
 import '../buttons/bottom_pane/bottom_pane_switch_button.dart';
-import '../../resources/colors.dart';
 
 class BottomPaneLeft extends StatelessWidget {
   final bool isChecked;
@@ -18,6 +17,7 @@ class BottomPaneLeft extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           BottomPaneSwitchButton(
+            title: 'This match is active',
             isChecked: isChecked,
             onPressed: onToggle,
           ),

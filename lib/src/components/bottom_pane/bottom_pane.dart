@@ -10,7 +10,7 @@ class BottomPane extends StatefulWidget {
 }
 
 class BottomPaneState extends State<BottomPane> {
-  bool isChecked = false;
+  bool isChecked = true;
 
   @override
   Widget build(BuildContext context) {

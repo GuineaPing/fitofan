@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import '../../../resources/colors.dart';
 
 class BottomPaneSwitchButton extends StatelessWidget {
+  final String title;
   final bool isChecked;
   final VoidCallback onPressed;
 
-  const BottomPaneSwitchButton({super.key, required this.isChecked, required this.onPressed});
+  const BottomPaneSwitchButton({super.key, required this.title, required this.isChecked, required this.onPressed});
 
   @override
   Widget build(BuildContext context) {
@@ -41,9 +42,9 @@ class BottomPaneSwitchButton extends StatelessWidget {
                 size: 16,
               ),
               const SizedBox(width: 15),
-              const Text(
-                'This match is active',
-                style: TextStyle(fontSize: 11, color: AppColors.primary),
+              Text(
+                title,
+                style: const TextStyle(fontSize: 11, color: AppColors.primary),
               ),
             ],
           ),
