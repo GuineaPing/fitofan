@@ -5,10 +5,10 @@
 Provided design does not exactly fit iPad form factor, it seems more for browser, in app central column height shorter for keeping cells proportion.
 
 * The function of this view is only browsing wrestling matches results?
-* Active controls on the view are Previous, Next buttons, Penalty & Menu buttons on competitors cells, 'This match is Active', 'Save results', 'Show results on screen' on central pane and 'Show on TV' in the bottom of the left pane. Did I miss some?
+* Active controls on the view are Previous, Next buttons, Penalty & Menu buttons on competitors cells, 'This match is Active', 'Save results', 'Show results on screen' on the central pane and 'Show on TV' in the bottom of the left pane. Did I miss some?
 * Previous, Next buttons are for browsing matches in chronological order?
 * Ss 'This match is Active' switches match status active/complete? 
-* What additional action does it fires?
+* What additional action does it fire?
 * Maybe the 'Save results' button should be enabled only when the match is completed?
 * What is the difference between buttons 'Show result on screen' and 'Show on TV'?
 * What items show previous and next lists? It looks like it matches history.
