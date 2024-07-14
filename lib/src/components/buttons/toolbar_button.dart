@@ -17,10 +17,10 @@ class ToolbarButton extends StatelessWidget {
     String imagePath = 'assets/images/icons/$imageName.png';
     return Center(
       child: TextButton.icon(
-        icon: SizedBox(width: 18, height: 18, child: Image.asset(imagePath)),
+        icon: SizedBox(width: 14, height: 14, child: Image.asset(imagePath)),
         label: Text(
           title,
-          style: const TextStyle(fontSize: 14, fontFamily: 'Roboto-Medium'),
+          style: const TextStyle(fontSize: 11),
         ),
         onPressed: onPressed,
       ),

@@ -16,8 +16,8 @@ class NavigateButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 280,
-      height: 76,
+      width: double.infinity,
+      height: 55,
       child: ElevatedButton(
         onPressed: onPressed,
         style: ElevatedButton.styleFrom(
@@ -33,18 +33,21 @@ class NavigateButton extends StatelessWidget {
             visible: isBack,
             child: const Icon(
               Icons.arrow_back,
-              size: 16,
+              size: 15,
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10, right: 10),
-            child: Text(title),
+            padding: const EdgeInsets.only(left: 5, right: 5),
+            child: Text(
+              title,
+              style: const TextStyle(fontSize: 11),
+            ),
           ),
           Visibility(
             visible: !isBack,
             child: const Icon(
               Icons.arrow_forward,
-              size: 16,
+              size: 15,
             ),
           ),
           const Spacer()
