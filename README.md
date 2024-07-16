@@ -24,7 +24,7 @@ Provided design does not exactly fit iPad form factor, it seems more for browser
     
 #### - [x] Outline the major steps you would take to implement this design.
 ###### Ways of implementation & techniques:
-* For blur effect on the top and bottom of the image it is possible to use the BackdropFilter widget along with Positioned widgets within a Stack.
+* For blur effect on the top and bottom of the image it is possible to use the ~BackdropFilter widget~ blur image that has transparent backgrounds along with Positioned widgets within a Stack.
 * To create a custom indicator wheel with digits in the center, may use the CircularPercentIndicator from the percent_indicator package and overlay it with a Text widget to display the numeric value. https://pub.dev/packages/percent_indicator
 * For event cards include an image, title, subtitle, and action buttons. Going to use the Card widget combined with Column and Row for layout.
 * For app navigation better to use tab bar widget 
